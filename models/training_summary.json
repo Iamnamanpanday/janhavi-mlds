@@ -1,0 +1,21 @@
+{
+  "Random_Forest": {
+    "train_time_sec": 0.152,
+    "n_estimators": 100,
+    "max_depth": 14
+  },
+  "XGBoost_Standard": {
+    "train_time_sec": 0.133,
+    "n_estimators": 100,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "interaction_constraints": "None (Fully Unconstrained)"
+  },
+  "XGBoost_Constrained": {
+    "train_time_sec": 0.136,
+    "n_estimators": 100,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "interaction_constraints_groups": 4
+  }
+}

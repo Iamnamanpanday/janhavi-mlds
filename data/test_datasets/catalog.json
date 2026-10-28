@@ -1,0 +1,152 @@
+[
+  {
+    "id": "test_01_lockbit_polymorphic_ransomware",
+    "filename": "test_01_lockbit_polymorphic_ransomware.csv",
+    "name": "Test 01: LockBit Polymorphic Ransomware",
+    "description": "High-entropy polymorphic payloads with encrypted sections (E_file > 7.2) and RWX permissions.",
+    "total_samples": 300,
+    "malware_count": 300,
+    "benign_count": 0,
+    "threat_ratio": 100.0,
+    "tags": [
+      "High-Entropy",
+      "Ransomware",
+      "Polymorphic"
+    ]
+  },
+  {
+    "id": "test_02_clean_enterprise_workstation",
+    "filename": "test_02_clean_enterprise_workstation.csv",
+    "name": "Test 02: Clean Enterprise Workstation Fleet",
+    "description": "Legitimate operating system utilities, drivers, and enterprise apps with normal entropy and zero packers.",
+    "total_samples": 300,
+    "malware_count": 0,
+    "benign_count": 300,
+    "threat_ratio": 0.0,
+    "tags": [
+      "Clean",
+      "Benign",
+      "Workstation"
+    ]
+  },
+  {
+    "id": "test_03_upx_packed_crypters",
+    "filename": "test_03_upx_packed_crypters.csv",
+    "name": "Test 03: UPX Packed Crypter Injections",
+    "description": "Executables compressed with runtime packers to disguise payloads and evade signature scans.",
+    "total_samples": 300,
+    "malware_count": 300,
+    "benign_count": 0,
+    "threat_ratio": 100.0,
+    "tags": [
+      "Packer",
+      "UPX",
+      "Crypter"
+    ]
+  },
+  {
+    "id": "test_04_apt29_stealth_trojans",
+    "filename": "test_04_apt29_stealth_trojans.csv",
+    "name": "Test 04: APT29 Stealth Backdoors & Trojans",
+    "description": "Low-profile advanced persistent threat samples masquerading under legitimate compiler headers.",
+    "total_samples": 300,
+    "malware_count": 250,
+    "benign_count": 50,
+    "threat_ratio": 83.3,
+    "tags": [
+      "APT",
+      "Trojan",
+      "Stealth"
+    ]
+  },
+  {
+    "id": "test_05_header_tampered_evasion",
+    "filename": "test_05_header_tampered_evasion.csv",
+    "name": "Test 05: Adversarial Header-Tampered Evasion",
+    "description": "Malware with stomped timestamps and spoofed DOS headers designed to trick unconstrained decision trees.",
+    "total_samples": 300,
+    "malware_count": 300,
+    "benign_count": 0,
+    "threat_ratio": 100.0,
+    "tags": [
+      "Adversarial",
+      "Header-Stomping",
+      "Evasion"
+    ]
+  },
+  {
+    "id": "test_06_polymorphic_droppers",
+    "filename": "test_06_polymorphic_droppers.csv",
+    "name": "Test 06: Polymorphic Droppers & Downloaders",
+    "description": "Staged first-stage droppers exhibiting dynamic code sections and high data entropy.",
+    "total_samples": 300,
+    "malware_count": 270,
+    "benign_count": 30,
+    "threat_ratio": 90.0,
+    "tags": [
+      "Dropper",
+      "Polymorphic",
+      "Stager"
+    ]
+  },
+  {
+    "id": "test_07_corporate_system_binaries",
+    "filename": "test_07_corporate_system_binaries.csv",
+    "name": "Test 07: Microsoft Windows System Binaries & DLLs",
+    "description": "Clean, signed Windows binaries (Kernel32, Explorer, Calc, Notepad, C++ Run-time).",
+    "total_samples": 300,
+    "malware_count": 0,
+    "benign_count": 300,
+    "threat_ratio": 0.0,
+    "tags": [
+      "System",
+      "Windows",
+      "DLL"
+    ]
+  },
+  {
+    "id": "test_08_mixed_threat_stream",
+    "filename": "test_08_mixed_threat_stream.csv",
+    "name": "Test 08: Mixed 50/50 Enterprise Telemetry Stream",
+    "description": "Realistic day-to-day corporate firewall traffic with an even split of clean and malicious executables.",
+    "total_samples": 300,
+    "malware_count": 150,
+    "benign_count": 150,
+    "threat_ratio": 50.0,
+    "tags": [
+      "Balanced",
+      "50-50",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "test_09_zero_day_heuristics",
+    "filename": "test_09_zero_day_heuristics.csv",
+    "name": "Test 09: Zero-Day Borderline Heuristics",
+    "description": "Borderline samples with intermediate entropy (6.3 - 7.1) and ambiguous section structures.",
+    "total_samples": 300,
+    "malware_count": 180,
+    "benign_count": 120,
+    "threat_ratio": 60.0,
+    "tags": [
+      "Zero-Day",
+      "Borderline",
+      "Heuristics"
+    ]
+  },
+  {
+    "id": "test_10_balanced_validation_cohort",
+    "filename": "test_10_balanced_validation_cohort.csv",
+    "name": "Test 10: Standard 300-Sample Benchmark Cohort",
+    "description": "Clean, unbiased held-out benchmark partition for reproducible college viva demonstration.",
+    "total_samples": 300,
+    "malware_count": 150,
+    "benign_count": 150,
+    "threat_ratio": 50.0,
+    "tags": [
+      "Benchmark",
+      "Validation",
+      "College-Viva"
+    ]
+  }
+]

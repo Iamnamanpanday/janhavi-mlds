@@ -1,0 +1,1 @@
+"""Static PE scanner package."""

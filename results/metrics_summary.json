@@ -1,0 +1,50 @@
+{
+  "Random Forest (Baseline)": {
+    "accuracy": 0.9867,
+    "precision": 0.9803,
+    "recall": 0.9933,
+    "f1_score": 0.9868,
+    "roc_auc": 0.9995,
+    "pr_auc": 0.9995,
+    "false_positive_rate": 0.02,
+    "false_negative_rate": 0.0067,
+    "confusion_matrix": {
+      "true_negative": 147,
+      "false_positive": 3,
+      "false_negative": 1,
+      "true_positive": 149
+    }
+  },
+  "Standard XGBoost": {
+    "accuracy": 0.9967,
+    "precision": 1.0,
+    "recall": 0.9933,
+    "f1_score": 0.9967,
+    "roc_auc": 0.9995,
+    "pr_auc": 0.9995,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.0067,
+    "confusion_matrix": {
+      "true_negative": 150,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_positive": 149
+    }
+  },
+  "Constrained XGBoost": {
+    "accuracy": 0.9867,
+    "precision": 0.9803,
+    "recall": 0.9933,
+    "f1_score": 0.9868,
+    "roc_auc": 0.9994,
+    "pr_auc": 0.9994,
+    "false_positive_rate": 0.02,
+    "false_negative_rate": 0.0067,
+    "confusion_matrix": {
+      "true_negative": 147,
+      "false_positive": 3,
+      "false_negative": 1,
+      "true_positive": 149
+    }
+  }
+}
